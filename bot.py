@@ -1,9 +1,12 @@
+
 """Bot for Telegram game LumberJack"""
 import sys
 from time import sleep
 import pyautogui
 import keyboard
 
+# Bot token
+bot_token = "7042753733:AAFotcFMl5VXuijyrbUTWYeI9710rGQr8Tk"
 
 def detect_game():
     """Detect game on a screen"""
@@ -141,5 +144,5 @@ def main():
         score += 12
 
 
-if __name__ == "__main__":
+if __name__ == "main":
     main()
